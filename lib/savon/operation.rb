@@ -72,7 +72,7 @@ module Savon
 
     def build_request(builder)
       request = SOAPRequest.new(@globals).build(
-        :soap_action => soap_action,
+        #:soap_action => soap_action,
         :cookies     => @locals[:cookies]
       )
 
